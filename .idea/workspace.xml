@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81721b4a-6f1d-4f95-9b27-862e4a065e22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/script/van_spider.txt" afterPath="$PROJECT_DIR$/script/van_spider.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/script/van_spider.db" afterPath="$PROJECT_DIR$/script/van_spider.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,17 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="van_spider.db" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/van_spider.db">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -796,7 +785,7 @@
       <updated>1504328742899</updated>
       <workItem from="1504328745687" duration="79000" />
       <workItem from="1504329152293" duration="5905000" />
-      <workItem from="1504495726646" duration="238000" />
+      <workItem from="1504495726646" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1504374841132</created>
@@ -805,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504374841132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="up">
+      <created>1504495970100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504495970100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6222000" />
+    <option name="totallyTimeSpent" value="7583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -862,6 +858,10 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,6 +897,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script/van_spider.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -907,14 +915,6 @@
             <marker date="1504495657605" expanded="true" signature="1809:1854" ph="INSERT INTO `stockdata`... " />
             <marker date="1504495657605" expanded="true" signature="2197:2248" ph="SELECT `id`,... stockdata" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/van_spider.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
