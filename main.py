@@ -109,21 +109,26 @@ class StockSpider():
         finally:
             connection.close()
 
-    def getApiData(self):
-        requrl = "http://proxy.finance.qq.com/ifzqgtimg/appstock/app/HsDealinfo/getDadan?code=sz300672&_appName=android&_dev=Redmi+Note+4X&_devId=c50cb922972722424434833f4167e6721c90d991&_mid=c50cb922972722424434833f4167e6721c90d991&_md5mid=22523BE796DEE7EA0C09F1346EF28481&_omgid=d60a9565b0d6064e612955b535047ef779d10010212615&_omgbizid=096de883a6ae2d4b6f395e484189e416b9ba0140212718&_appver=5.8.2&_ifChId=119&_screenW=1080&_screenH=1920&_osVer=6.0.1&_uin=10000&_wxuin=20000&_net=WIFI&__random_suffix=38315"
-        req = urllib2.Request(url=requrl)
+    def getApiData(self, code_stock):
+        # code_stock = 'sz300672'
+        req_url = "http://proxy.finance.qq.com/ifzqgtimg/appstock/app/HsDealinfo/getDadan?code={0:s}&_appName=android&_dev=Redmi+Note+4X&_devId=c50cb922972722424434833f4167e6721c90d991&_mid=c50cb922972722424434833f4167e6721c90d991&_md5mid=22523BE796DEE7EA0C09F1346EF28481&_omgid=d60a9565b0d6064e612955b535047ef779d10010212615&_omgbizid=096de883a6ae2d4b6f395e484189e416b9ba0140212718&_appver=5.8.2&_ifChId=119&_screenW=1080&_screenH=1920&_osVer=6.0.1&_uin=10000&_wxuin=20000&_net=WIFI&__random_suffix=38315"
+        req = urllib2.Request(url=req_url.format(code_stock))
         res_data = urllib2.urlopen(req)
         res = res_data.read()
         return res
 
-spider = StockSpider()
-apiresult = spider.getApiData()
-print apiresult
+    def execute(self, code_stock):
+        code_stock = 'sz300672'
+        apiresult = self.getApiData(code_stock)
+        if len(apiresult) > 0:
+            jsondata = json.loads(apiresult)
+            if jsondata["code"] == 0:
+                detaillist = jsondata["data"]["detail"]
+                if len(detaillist) > 0:
+                    for detail in detaillist:
+                        dbresult = self.addStockOrder(detail)
+                        # print dbresult
 
-jsondata = json.loads(apiresult)
-if jsondata["code"] == 0:
-    detaillist = jsondata["data"]["detail"]
-    if len(detaillist) > 0:
-        for detail in detaillist:
-            dbresult = spider.addStockOrder(detail)
-            # print dbresult
+code_stock = 'sz300672'
+spider = StockSpider()
+spider.execute(code_stock)

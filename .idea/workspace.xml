@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81721b4a-6f1d-4f95-9b27-862e4a065e22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testjson.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/van_spider.sql" afterPath="$PROJECT_DIR$/script/van_spider.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -29,7 +27,29 @@
     <favorites_list name="van-spider-stock" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="807">
+              <caret line="133" column="26" selection-start-line="131" selection-start-column="0" selection-end-line="133" selection-end-column="26" />
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
+                <element signature="e#483#843#0" expanded="false" />
+                <element signature="e#876#1996#0" expanded="false" />
+                <element signature="e#2040#2862#0" expanded="false" />
+                <marker date="1504752008195" expanded="true" signature="1368:1425" ph="INSERT INTO `users`... " />
+                <marker date="1504752008195" expanded="true" signature="1758:1811" ph="SELECT `id`,... users" />
+                <marker date="1504752008195" expanded="true" signature="2248:2293" ph="INSERT INTO `stockdata`... " />
+                <marker date="1504752008195" expanded="true" signature="2636:2687" ph="SELECT `id`,... stockdata" />
+                <marker date="1504752008195" expanded="true" signature="3164:3293" ph="INSERT INTO `van_spider`.`t_stock_order`... " />
+                <marker date="1504752008195" expanded="true" signature="3772:3823" ph="SELECT `id`,... stockdata" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/script/van_spider.txt" />
         <option value="$PROJECT_DIR$/testjson.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/script/van_spider.sql" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -128,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,24 +169,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="van-spider-stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="van-spider-stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -835,7 +841,8 @@
       <workItem from="1504329152293" duration="5905000" />
       <workItem from="1504495726646" duration="3547000" />
       <workItem from="1504575726842" duration="4124000" />
-      <workItem from="1504663730378" duration="16514000" />
+      <workItem from="1504663730378" duration="17189000" />
+      <workItem from="1504748416956" duration="4352000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1504374841132</created>
@@ -858,11 +865,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504509279876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="up">
+      <created>1504693317412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504693317412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30169000" />
+    <option name="totallyTimeSpent" value="35196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -883,7 +897,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.381161" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.381161" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -935,14 +949,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#45#0" expanded="true" />
+            <element signature="e#483#843#0" expanded="false" />
             <element signature="e#876#1996#0" expanded="false" />
-            <element signature="e#2956#3992#0" expanded="false" />
-            <marker date="1504693093792" expanded="true" signature="1368:1425" ph="INSERT INTO `users`... " />
-            <marker date="1504693093792" expanded="true" signature="1758:1811" ph="SELECT `id`,... users" />
-            <marker date="1504693093792" expanded="true" signature="2248:2293" ph="INSERT INTO `stockdata`... " />
-            <marker date="1504693093792" expanded="true" signature="2636:2687" ph="SELECT `id`,... stockdata" />
-            <marker date="1504693093792" expanded="true" signature="3164:3293" ph="INSERT INTO `van_spider`.`t_stock_order`... " />
-            <marker date="1504693093792" expanded="true" signature="3772:3823" ph="SELECT `id`,... stockdata" />
+            <element signature="e#2040#2862#0" expanded="false" />
+            <marker date="1504752008195" expanded="true" signature="1368:1425" ph="INSERT INTO `users`... " />
+            <marker date="1504752008195" expanded="true" signature="1758:1811" ph="SELECT `id`,... users" />
+            <marker date="1504752008195" expanded="true" signature="2248:2293" ph="INSERT INTO `stockdata`... " />
+            <marker date="1504752008195" expanded="true" signature="2636:2687" ph="SELECT `id`,... stockdata" />
+            <marker date="1504752008195" expanded="true" signature="3164:3293" ph="INSERT INTO `van_spider`.`t_stock_order`... " />
+            <marker date="1504752008195" expanded="true" signature="3772:3823" ph="SELECT `id`,... stockdata" />
           </folding>
         </state>
       </provider>
@@ -953,14 +968,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#45#0" expanded="true" />
+            <element signature="e#483#843#0" expanded="false" />
             <element signature="e#876#1996#0" expanded="false" />
-            <element signature="e#2956#3992#0" expanded="false" />
-            <marker date="1504693093792" expanded="true" signature="1368:1425" ph="INSERT INTO `users`... " />
-            <marker date="1504693093792" expanded="true" signature="1758:1811" ph="SELECT `id`,... users" />
-            <marker date="1504693093792" expanded="true" signature="2248:2293" ph="INSERT INTO `stockdata`... " />
-            <marker date="1504693093792" expanded="true" signature="2636:2687" ph="SELECT `id`,... stockdata" />
-            <marker date="1504693093792" expanded="true" signature="3164:3293" ph="INSERT INTO `van_spider`.`t_stock_order`... " />
-            <marker date="1504693093792" expanded="true" signature="3772:3823" ph="SELECT `id`,... stockdata" />
+            <element signature="e#2040#2862#0" expanded="false" />
+            <marker date="1504752008195" expanded="true" signature="1368:1425" ph="INSERT INTO `users`... " />
+            <marker date="1504752008195" expanded="true" signature="1758:1811" ph="SELECT `id`,... users" />
+            <marker date="1504752008195" expanded="true" signature="2248:2293" ph="INSERT INTO `stockdata`... " />
+            <marker date="1504752008195" expanded="true" signature="2636:2687" ph="SELECT `id`,... stockdata" />
+            <marker date="1504752008195" expanded="true" signature="3164:3293" ph="INSERT INTO `van_spider`.`t_stock_order`... " />
+            <marker date="1504752008195" expanded="true" signature="3772:3823" ph="SELECT `id`,... stockdata" />
           </folding>
         </state>
       </provider>
@@ -991,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="963" column="0" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="151" column="23" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,24 +1028,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+        <state relative-caret-position="807">
+          <caret line="133" column="26" selection-start-line="131" selection-start-column="0" selection-end-line="133" selection-end-column="26" />
           <folding>
             <element signature="e#23#45#0" expanded="true" />
+            <element signature="e#483#843#0" expanded="false" />
             <element signature="e#876#1996#0" expanded="false" />
-            <element signature="e#2956#3992#0" expanded="false" />
-            <marker date="1504693093792" expanded="true" signature="1368:1425" ph="INSERT INTO `users`... " />
-            <marker date="1504693093792" expanded="true" signature="1758:1811" ph="SELECT `id`,... users" />
-            <marker date="1504693093792" expanded="true" signature="2248:2293" ph="INSERT INTO `stockdata`... " />
-            <marker date="1504693093792" expanded="true" signature="2636:2687" ph="SELECT `id`,... stockdata" />
-            <marker date="1504693093792" expanded="true" signature="3164:3293" ph="INSERT INTO `van_spider`.`t_stock_order`... " />
-            <marker date="1504693093792" expanded="true" signature="3772:3823" ph="SELECT `id`,... stockdata" />
+            <element signature="e#2040#2862#0" expanded="false" />
+            <marker date="1504752008195" expanded="true" signature="1368:1425" ph="INSERT INTO `users`... " />
+            <marker date="1504752008195" expanded="true" signature="1758:1811" ph="SELECT `id`,... users" />
+            <marker date="1504752008195" expanded="true" signature="2248:2293" ph="INSERT INTO `stockdata`... " />
+            <marker date="1504752008195" expanded="true" signature="2636:2687" ph="SELECT `id`,... stockdata" />
+            <marker date="1504752008195" expanded="true" signature="3164:3293" ph="INSERT INTO `van_spider`.`t_stock_order`... " />
+            <marker date="1504752008195" expanded="true" signature="3772:3823" ph="SELECT `id`,... stockdata" />
           </folding>
         </state>
       </provider>
